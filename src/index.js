@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello_comp from './text';
+import Hello from './text';
 
 ReactDOM.render(
-   Hello_comp,
-  document.getElementById('root')
+   <Hello msg="welcome,this is the page created by ambika" />,
+    document.getElementById('root')
 );
 
